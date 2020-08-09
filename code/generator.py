@@ -61,15 +61,13 @@ def handle_file(base_path, filename):
         image = f'https://cdn.jsdelivr.net/gh/coxmos/music543/image/cover/{date}.png'
     link = input('請輸入單集網址：（如沒有請按回車）').strip()
     link = link.replace('medium.com', 'medium.xiaoyuu.ga').replace('honeypie.wordpress.com', 'honeypie.xiaoyuu.ga')
-    description = read_description().strip()
-
-    if description == '':
-        description = f'<![CDATA[<p>本集暫無詳細介紹。</p><p>更多資訊請訪問：<a href="https://music543.xiaoyuu.ga">music543.xiaoyuu.ga</a></p><p>Email：<a href="mailto:music543@xiaoyuu.ga">music543@xiaoyuu.ga</a></p>]]>'
-    else:
-        description = f'<![CDATA[{description}'
-        if link != '':
-            description += f'<p>本集网页：{link}</p>'
-        description += ']]>'
+    description = '<![CDATA['
+    text = read_description().strip()
+    if text != '':
+        description += text
+    if link != '':
+        description += f'<p></p><p>本集网页：<a href="{link}">{link}</a></p>'
+    description += f'<p></p><p>馬世芳老師的电台节目「音樂五四三」非官方存档。 </p><p>如有問題或者建議，请在<a href="https://music543.xiaoyuu.ga">music543.xiaoyuu.ga</a>底部留言，或者发邮件至 <a href="mailto:music543@xiaoyuu.ga">music543@xiaoyuu.ga</a>。</p>]]>'
 
     return {
         'title': name,
@@ -119,6 +117,7 @@ def rss_generator(base_url, infos):
 
     for info in infos:
         item = get_item(info)
+        print(item)
         root.append(item)
     tree = ET.ElementTree(root)
     tree.write(rss_file, 'UTF-8')
