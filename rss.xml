@@ -2,44 +2,27 @@
     <channel>
         <title>音樂五四三</title>
         <itunes:author>馬世芳</itunes:author>
-        <link>https://ear.xiaoyuu.ga</link>
-        <itunes:email>ear@xiaoyuu.ga</itunes:email>
-        <itunes:image href="https://cdn.jsdelivr.net/gh/coxmos/lend-me-your-ear/avatar.png"/>
+        <link>https://music543.xiaoyuu.ga</link>
+        <itunes:image href="https://cdn.jsdelivr.net/gh/coxmos/music543/image/avatar.png"/>
         <language>zh</language>
-        <copyright>©️2020 音樂五四三</copyright>
+        <copyright>©️2002-2017 音樂五四三</copyright>
 
         <itunes:type>episodic</itunes:type>
         <itunes:owner>
             <itunes:name>音樂五四三</itunes:name>
-            <itunes:email>ear@xiaoyuu.ga</itunes:email>
+            <itunes:email>music543@xiaoyuu.ga</itunes:email>
         </itunes:owner>
 
         <itunes:category text="Music"/>
         <itunes:explicit>false</itunes:explicit>
-        <itunes:complete>no</itunes:complete>
 
         <description>
-            把耳朵借给马世芳吧XD，电台节目「音樂五四三」非官方存档。 如有问题或者建议，请在网站（https://ear.xiaoyuu.ga）底部留言，或者发邮件至邮箱：ear@xiaoyuu.ga。
+            <![CDATA[
+                <p>馬世芳老師的电台节目「音樂五四三」非官方存档。 </p>
+                <p>如有問題或者建議，请在<a href="https://music543.xiaoyuu.ga">music543.xiaoyuu.ga</a>底部留言，或者发邮件至 <a href="mailto:music543@xiaoyuu.ga">music543@xiaoyuu.ga</a>。</p>
+            ]]>
         </description>
 
-        <item>
-            <itunes:episodeType>full</itunes:episodeType>
-            <itunes:explicit>false</itunes:explicit>
-            <itunes:image href="https://cdn.jsdelivr.net/gh/coxmos/lend-me-your-ear/image/20200706.jpeg"/>
-            <enclosure length="86429631" type="audio/mpeg"
-                       url="https://one.xiaoyuu.ga/耳朵借我/2020/20200706%20%E5%B0%88%E8%A8%AA%E6%89%8D%E5%A5%B3%E6%AD%8C%E6%89%8B%E6%9B%BE%E9%9B%85%E5%90%9B%E8%AB%87%E3%80%8A%E8%87%AA%E5%B7%B1%E3%80%8B.mp3"/>
-            <title>20200706 專訪才女歌手曾雅君談《自己》</title>
-            <description>
-                早在十來年前，老友謝宇威就跟我大力推薦過曾雅君：他說，這個唱客語歌的小女生真的很有才華又很會唱，要密切注意！後來我知道，他逢人就推，成了雅君得以正式出版專輯的伯樂。2009年曾雅君發行首張專輯，拿下金曲獎最佳客語專輯，從觀眾席走到頒獎台短短十來秒，電視機播著她的歌，光那一小小段，已經讓無數觀眾驚艷：這是誰？什麼歌這麼好聽！…
 
-                本集详细介绍及歌单列表,请查看网页:https://medium.xiaoyuu.ga/%E6%88%91%E6%98%AF%E9%A6%AC%E4%B8%96%E8%8A%B3/7-6-%E8%80%B3%E6%9C%B5%E5%80%9F%E6%88%91-%E6%89%8D%E5%A5%B3%E6%9B%BE%E9%9B%85%E5%90%9B%E8%AB%87-%E8%87%AA%E5%B7%B1-%E5%92%8C%E9%9F%B3%E6%A8%82%E4%BA%BA%E7%94%9F-fd3f77ad4d31
-            </description>
-            <link>
-                https://medium.xiaoyuu.ga/%E6%88%91%E6%98%AF%E9%A6%AC%E4%B8%96%E8%8A%B3/7-6-%E8%80%B3%E6%9C%B5%E5%80%9F%E6%88%91-%E6%89%8D%E5%A5%B3%E6%9B%BE%E9%9B%85%E5%90%9B%E8%AB%87-%E8%87%AA%E5%B7%B1-%E5%92%8C%E9%9F%B3%E6%A8%82%E4%BA%BA%E7%94%9F-fd3f77ad4d31
-            </link>
-            <guid>a8642963120200706</guid>
-            <pubDate>Mon, 06 Jul 2020 10:00:00 -0000</pubDate>
-            <itunes:duration>7288</itunes:duration>
-        </item>
     </channel>
 </rss>
