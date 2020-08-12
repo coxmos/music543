@@ -36,7 +36,7 @@ def read_description():
 
 
 def handle_file(base_path, filename):
-    if filename.count('.mp3') != 1:
+    if filename.count('.mp3') != 1 and filename.count('.m4a') != 1:
         print(filename)
         return None
     base_audio_url = 'https://one.xiaoyuu.ga/music543'
