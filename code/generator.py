@@ -54,7 +54,7 @@ def handle_file(base_path, filename):
     image = ''
     has_image = input('有單集圖片嗎（no-0，yes-1）：')
     if has_image == '1':
-        image = f'https://cdn.jsdelivr.net/gh/coxmos/music543/image/cover/{date}.png'
+        image = f'https://cdn.jsdelivr.net/gh/coxmos/music543/image/cover/{date}.jpg'
     link = input('請輸入單集網址：（如沒有請按回車）').strip()
     # link = link.replace('medium.com', 'medium.xiaoyuu.ga').replace('honeypie.wordpress.com', 'honeypie.xiaoyuu.ga')
     description = '<![CDATA['
@@ -105,8 +105,8 @@ def get_item(info):
     return item
 
 
-def rss_generator(base_url, infos):
-    rss_file = os.path.join(base_url, 'rss.xml')
+def rss_generator(infos):
+    rss_file = 'episode.xml'
     root = ET.Element('root')
 
     for info in infos:
@@ -117,7 +117,7 @@ def rss_generator(base_url, infos):
 
 
 def main():
-    base_path = '../../Downloads/music543/handle'
+    base_path = '../../Downloads/music543'
     files = os.listdir(base_path)
     infos = []
     for file in files:
@@ -127,7 +127,7 @@ def main():
             infos.append(res)
         else:
             print(f"Error:{file}")
-    rss_generator(base_path, infos)
+    rss_generator(infos)
 
 
 if __name__ == '__main__':
