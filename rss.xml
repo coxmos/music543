@@ -17,9 +17,18 @@
         <itunes:explicit>false</itunes:explicit>
 
         <description>
-            <![CDATA[<p>馬世芳老師的电台节目「音樂五四三」非官方存档。 </p><p>如有問題或者建議，请在<a href="https://music543.xiaoyuu.ga">music543.xiaoyuu.ga</a>底部留言，或者发邮件至 <a href="mailto:music543@xiaoyuu.ga">music543@xiaoyuu.ga</a>。</p>]]>
+            <![CDATA[<p>馬世芳老師的电台节目「音樂五四三」非官方存档。 </p><p>如有問題或者建議，请发邮件至 <a href="mailto:music543@xiaoyuu.ga">music543@xiaoyuu.ga</a>。</p>]]>
         </description>
-
+        <item>
+            <enclosure length="90116246" type="audio/mpeg"
+                       url="https://one.xiaoyuu.ga/music543/2002/20021215-%E5%B0%88%E8%A8%AA%E7%BE%85%E5%A4%A7%E4%BD%91.mp3"/>
+            <title>專訪羅大佑</title>
+            <description>
+                <![CDATA[<p>羅大佑，好久不見！這集節目的前一小時，會先回顧大佑過去二十年的 </p><p>精彩作品，第二小時，羅大佑將會接受我的專訪，談談這幾年的工作、 </p><p>對未來的計畫、已經做好的新專輯，以及更多更多。 </p><p></p><p></p><p>【今天播出的歌】 </p><p></p><p>戀曲一九八○ </p><p>鹿港小鎮 </p><p>光陰的故事 </p><p>童年 </p><p>現象七十二變 </p><p>未來的主人翁 </p><p>愛的箴言 </p><p>家(II) </p><p>京城夜 </p><p>原鄉 </p><p>天雨 </p><p></p><p>故鄉 </p><p>往事2000 </p><p>大家無輸贏 </p><p>真的假的 </p><p>戀曲二○○○ </p><p></p><p>馬世芳老師的电台节目「音樂五四三」非官方存档。 </p><p>如有問題或者建議，请在<a href="https://music543.xiaoyuu.ga">music543.xiaoyuu.ga</a>底部留言，或者发邮件至 <a href="mailto:music543@xiaoyuu.ga">music543@xiaoyuu.ga</a>。</p>]]></description>
+            <guid>a9011624620021215</guid>
+            <pubDate>Sun, 15 Dec 2002 10:00:00 -0000</pubDate>
+            <season>2002</season>
+        </item>
         <item>
             <itunes:image href="https://cdn.jsdelivr.net/gh/coxmos/music543/image/cover/20131005.png"/>
             <link>https://honeypie.xiaoyuu.ga/2013/10/05/10-5-音樂五四三：專訪「五條人」空中現場/</link>
