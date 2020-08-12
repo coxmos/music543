@@ -20,6 +20,19 @@
             <![CDATA[<p>馬世芳老師的电台节目「音樂五四三」非官方存档。 </p><p>如有問題或者建議，请发邮件至 <a href="mailto:music543@xiaoyuu.ga">music543@xiaoyuu.ga</a>。</p>]]>
         </description>
         <item>
+            <itunes:image href="https://cdn.jsdelivr.net/gh/coxmos/music543/image/cover/20050423.jpg"/>
+            <enclosure length="46205303" type="audio/mpeg"
+                       url="https://one.xiaoyuu.ga/music543/2005/20050423-%E5%B0%88%E8%A8%AA%E9%BB%83%E8%80%80%E6%98%8E%E8%A8%B1%E8%8C%B9%E8%8A%B8%E9%99%B3%E7%8F%8A%E5%A6%AE.m4a"/>
+            <title>專訪黃耀明,許茹芸,陳珊妮</title>
+            <description><![CDATA[<p>這次邀請到三位才華閃耀的音樂人來到現場，三人都是多年舊識，聊得</p><p>非常開心。這集節目除了請他們暢談音樂、劇場跨界合作的經驗，也放</p><p>了很多他們過去的精彩作品，這集節目也是達明一派最新單曲「北地胭</p><p>脂」（「南方舞廳」的國語版）在台灣的首播喔，豈可錯過！</p><p></p><p>【今天播出的歌】</p><p></p><p>達明一派／石頭記</p><p>達明一派／北地胭脂</p><p>許茹芸／難得好天氣</p><p>許茹芸／我怎能離開你</p><p>許茹芸／我的藍色夏天</p><p>許茹芸／愛是
+            </p><p>達明一派／今天應該很高興（live）</p><p>拜金小姐／點絳唇</p><p>黃耀明／四季歌</p><p>黃耀明／獅子山下</p><p>許茹芸／雲且留住</p><p>黃耀明／窮風流</p><p></p><p>馬世芳老師的电台节目「音樂五四三」非官方存档。
+            </p><p>如有問題或建議，请发邮件至 <a href="mailto:music543@xiaoyuu.ga">music543@xiaoyuu.ga</a>。</p>]]>
+            </description>
+            <guid>a4620530320050423</guid>
+            <pubDate>Sat, 23 Apr 2005 10:00:00 -0000</pubDate>
+            <season>2005</season>
+        </item>
+        <item>
             <itunes:image href="https://cdn.jsdelivr.net/gh/coxmos/music543/image/cover/20050319.jpg"/>
             <enclosure length="143409458" type="audio/mpeg"
                        url="https://one.xiaoyuu.ga/music543/2005/20050319-%E5%9B%9E%E9%A1%A7%E9%81%94%E6%98%8E%E4%B8%80%E6%B4%BE.mp3"/>
