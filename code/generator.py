@@ -2,10 +2,6 @@ import os
 import time
 from datetime import datetime
 from email import utils
-
-import requests
-from bs4 import BeautifulSoup
-from mutagen.mp3 import MP3
 from urllib import parse
 import xml.etree.ElementTree as ET
 
@@ -60,14 +56,12 @@ def handle_file(base_path, filename):
     if has_image == '1':
         image = f'https://cdn.jsdelivr.net/gh/coxmos/music543/image/cover/{date}.png'
     link = input('請輸入單集網址：（如沒有請按回車）').strip()
-    link = link.replace('medium.com', 'medium.xiaoyuu.ga').replace('honeypie.wordpress.com', 'honeypie.xiaoyuu.ga')
+    # link = link.replace('medium.com', 'medium.xiaoyuu.ga').replace('honeypie.wordpress.com', 'honeypie.xiaoyuu.ga')
     description = '<![CDATA['
     text = read_description().strip()
     if text != '':
         description += text
-    if link != '':
-        description += f'<p></p><p>本集网页：<a href="{link}">{link}</a></p>'
-    description += f'<p></p><p>馬世芳老師的电台节目「音樂五四三」非官方存档。 </p><p>如有問題或者建議，请在<a href="https://music543.xiaoyuu.ga">music543.xiaoyuu.ga</a>底部留言，或者发邮件至 <a href="mailto:music543@xiaoyuu.ga">music543@xiaoyuu.ga</a>。</p>]]>'
+    description += f'<p></p><p>馬世芳老師的电台节目「音樂五四三」非官方存档。 </p><p>如有問題或建議，请发邮件至 <a href="mailto:music543@xiaoyuu.ga">music543@xiaoyuu.ga</a>。</p>]]>'
 
     return {
         'title': name,
@@ -117,7 +111,6 @@ def rss_generator(base_url, infos):
 
     for info in infos:
         item = get_item(info)
-        print(item)
         root.append(item)
     tree = ET.ElementTree(root)
     tree.write(rss_file, 'UTF-8')
