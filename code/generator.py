@@ -56,7 +56,7 @@ def handle_file(base_path, filename):
     if has_image == '1':
         image = f'https://cdn.jsdelivr.net/gh/coxmos/music543/image/cover/{date}.jpg'
     link = input('請輸入單集網址：（如沒有請按回車）').strip()
-    # link = link.replace('medium.com', 'medium.xiaoyuu.ga').replace('honeypie.wordpress.com', 'honeypie.xiaoyuu.ga')
+    link = link.replace('medium.com', 'medium.xiaoyuu.ga').replace('honeypie.wordpress.com', 'honeypie.xiaoyuu.ga')
     description = '<![CDATA['
     text = read_description().strip()
     if text != '':
