@@ -54,7 +54,7 @@ def handle_file(base_path, filename):
     image = ''
     has_image = input('有單集圖片嗎（no-0，yes-1）：')
     if has_image == '1':
-        image = f'https://cdn.jsdelivr.net/gh/coxmos/music543/image/cover/{date}.jpg'
+        image = f'https://cdn.jsdelivr.net/gh/coxmos/music543@master/image/cover/{date}.png'
     link = input('請輸入單集網址：（如沒有請按回車）').strip()
     link = link.replace('medium.com', 'medium.xiaoyuu.ga').replace('honeypie.wordpress.com', 'honeypie.xiaoyuu.ga')
     description = '<![CDATA['
