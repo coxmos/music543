@@ -21,6 +21,20 @@
         </description>
 
         <item>
+            <itunes:image href="https://cdn.jsdelivr.net/gh/coxmos/music543@master/image/cover/20140329.png"/>
+            <link>https://honeypie.xiaoyuu.ga/2014/03/27/3-29-音樂五四三：專訪宋冬野空中現場/</link>
+            <enclosure length="118868173" type="audio/mpeg"
+                       url="https://one.xiaoyuu.ga/music543/2014/20140329-%E5%B0%88%E8%A8%AA%E5%AE%8B%E5%86%AC%E9%87%8E.mp3"/>
+            <title>專訪宋冬野</title>
+            <description><![CDATA[<p>播出曲目：</p><p></p><p>莉莉安</p><p></p><p>卡比巴拉的海</p><p></p><p>董小姐</p><p></p><p>（萬曉利：這一切沒有你想像的那麼糟）</p><p></p><p>斑馬斑馬</p><p></p><p>宋冬野
+            unplugged live @News98:</p><p></p><p></p><p></p><p>鴿子</p><p></p><p>連衣裙</p><p></p><p>夢遺少年</p><p></p><p>關憶北</p><p></p><p>安和橋</p><p></p><p></p><p>馬世芳老師的电台节目「音樂五四三」非官方存档。
+            </p><p>如有問題或建議，请发邮件至 <a href="mailto:music543@xiaoyuu.ga">music543@xiaoyuu.ga</a>。</p>]]>
+            </description>
+            <guid>a11886817320140329</guid>
+            <pubDate>Sat, 29 Mar 2014 10:00:00 -0000</pubDate>
+            <season>2014</season>
+        </item>
+        <item>
             <itunes:image href="https://cdn.jsdelivr.net/gh/coxmos/music543@master/image/cover/20120421.jpg"/>
             <link>https://honeypie.xiaoyuu.ga/2012/04/20/4-21-音樂五四三：it-was-30-years-ago-today「之乎者也」特輯/</link>
             <enclosure length="89296264" type="audio/mpeg"
