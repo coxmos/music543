@@ -1,0 +1,57 @@
+name: Music543 CI/CD
+
+on:
+  push:
+    branches: 
+      - source
+
+env:
+  TZ: Asia/Shanghai
+
+jobs:
+  blog-cicd:
+    name: Hexo blog build & deploy
+    runs-on: ubuntu-latest # 使用最新的 Ubuntu 系統作為編譯部署的環境
+
+    steps:
+    - name: Checkout codes
+      uses: actions/checkout@v2
+
+    - name: Setup node
+      # 設定 node.js 環境
+      uses: actions/setup-node@v1
+      with:
+        node-version: '12.x'
+
+    - name: Cache node modules
+      # 設定包快取目錄，避免每次下載
+      uses: actions/cache@v1
+      with:
+        path: ~/.npm
+        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+
+    - name: Install hexo dependencies
+      # 下載 hexo-cli 腳手架及相關安裝包
+      run: |
+        npm install hexo-cli gulp -g
+        npm install
+
+    - name: Generate files
+      # 編譯 markdown 檔案
+      run: |
+        hexo clean
+        hexo g
+
+    - name: Deploy hexo blog
+      env: 
+        # Github 倉庫
+        GITHUB_REPO: github.com/coxmos/Music543
+      # 將編譯後的部落格檔案推送到指定倉庫
+      run: |
+        sudo timedatectl set-timezone "Asia/Shanghai"
+        cd ./public && git init && git add .
+        git config user.name "coxmos"
+        git config user.email "hi@xiaoyuu.ga"
+        git add .
+        git commit -m "GitHub Actions Auto Builder at $(date +'%Y-%m-%d %H:%M:%S')"
+        git push --force --quiet "https://${{ secrets.ACCESS_TOKEN }}@$GITHUB_REPO" master:master
