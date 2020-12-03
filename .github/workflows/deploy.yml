@@ -1,4 +1,4 @@
-name: Music543 CI/CD
+name: music543 CI/CD
 
 on:
   push:
@@ -45,7 +45,7 @@ jobs:
     - name: Deploy hexo blog
       env: 
         # Github 倉庫
-        GITHUB_REPO: github.com/coxmos/Music543
+        GITHUB_REPO: github.com/coxmos/music543
       # 將編譯後的部落格檔案推送到指定倉庫
       run: |
         sudo timedatectl set-timezone "Asia/Shanghai"

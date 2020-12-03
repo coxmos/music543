@@ -104,7 +104,7 @@ theme: icarus
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repository: git@github.com:coxmos/Music543.git
+  repository: git@github.com:coxmos/music543.git
   branch: master
 
 
