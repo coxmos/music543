@@ -98,10 +98,10 @@ navbar:
     links:
         Spotify:
             icon: fab fa-spotify
-            url: 'https://open.spotify.com/show/3Y3bCgls9iO454FVI83nRn'
+            url: 'https://open.spotify.com/show/3ZsHxqotBOPdLlfOiRW9xv'
         Apple Podcast:
             icon: fas fa-podcast
-            url: 'https://podcasts.apple.com/us/podcast/耳朵借我/id1529083859'
+            url: 'https://podcasts.apple.com/us/podcast/%E9%9F%B3%E6%A8%82%E4%BA%94%E5%9B%9B%E4%B8%89/id1529088509'
         RSS:
             icon: fas fa-rss
             url: /rss.xml
@@ -109,10 +109,10 @@ footer:
     links:
         Spotify:
             icon: fab fa-spotify
-            url: 'https://open.spotify.com/show/3Y3bCgls9iO454FVI83nRn'
+            url: 'https://open.spotify.com/show/3ZsHxqotBOPdLlfOiRW9xv'
         Apple Podcast:
             icon: fas fa-podcast
-            url: 'https://podcasts.apple.com/us/podcast/耳朵借我/id1529083859'
+            url: 'https://podcasts.apple.com/us/podcast/%E9%9F%B3%E6%A8%82%E4%BA%94%E5%9B%9B%E4%B8%89/id1529088509'
         RSS:
             icon: fas fa-rss
             url: /rss.xml
@@ -232,10 +232,10 @@ widgets:
         social_links:
             Spotify:
                 icon: fab fa-spotify
-                url: 'https://open.spotify.com/show/3Y3bCgls9iO454FVI83nRn'
+                url: 'https://open.spotify.com/show/3ZsHxqotBOPdLlfOiRW9xv'
             Apple Podcast:
                 icon: fas fa-podcast
-                url: 'https://podcasts.apple.com/us/podcast/耳朵借我/id1529083859'
+                url: 'https://podcasts.apple.com/us/podcast/%E9%9F%B3%E6%A8%82%E4%BA%94%E5%9B%9B%E4%B8%89/id1529088509'
             RSS:
                 icon: fas fa-rss
                 url: /rss.xml
