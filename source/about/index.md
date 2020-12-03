@@ -50,22 +50,6 @@ https://music543.xiaoyuu.ga/rss.xml
 ```
 
 
-
-**以 iOS 蘋果自家的 Podcast App 為例**
-
-<img src="https://cdn.jsdelivr.net/gh/coxmos/cdn@master/podcast/apple-podcast.png" style="zoom:40%;" />
-
-**使用步驟如下**
-
-
-
-![](https://cdn.jsdelivr.net/gh/coxmos/cdn@master/podcast/apple-podcast-step.jpeg)
-
-
-
-**Enjoy ！**
-
-
 ##  App 推薦
 
 ### iOS & Android
