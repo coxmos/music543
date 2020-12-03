@@ -1,0 +1,36 @@
+{
+  "name": "music543",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "hexo generate",
+    "clean": "hexo clean",
+    "deploy": "hexo deploy",
+    "server": "hexo server"
+  },
+  "hexo": {
+    "version": "5.2.0"
+  },
+  "dependencies": {
+    "bulma-stylus": "^0.8.0",
+    "hexo": "^5.0.0",
+    "hexo-auto-excerpt": "^1.1.2",
+    "hexo-component-inferno": "^0.10.1",
+    "hexo-deployer-git": "^2.1.0",
+    "hexo-generator-archive": "^1.0.0",
+    "hexo-generator-category": "^1.0.0",
+    "hexo-generator-feed": "^3.0.0",
+    "hexo-generator-index": "^2.0.0",
+    "hexo-generator-podxiaoyuu": "^1.0.0",
+    "hexo-generator-tag": "^1.0.0",
+    "hexo-renderer-ejs": "^1.0.0",
+    "hexo-renderer-inferno": "^0.1.3",
+    "hexo-renderer-marked": "^3.0.0",
+    "hexo-renderer-stylus": "^2.0.0",
+    "hexo-server": "^2.0.0",
+    "hexo-tag-aplayer": "^3.0.4",
+    "inferno": "^7.4.5",
+    "inferno-create-element": "^7.4.5",
+    "locutus": "^2.0.14"
+  }
+}
