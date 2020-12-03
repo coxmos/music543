@@ -2,73 +2,71 @@
 title: 關於
 date: 2020-6-21 12:12:59
 ---
-<h1 align="center">耳朵借我</h1>
+
+<h1 align="center">音樂五四三</h1>
 <p align="center">
-此 Repo 为热心网友创建并维护，非官方，旨在为两岸三地的听众朋友提供便捷的收听方式。
+做一個認真的樂迷，電臺節目「音樂五四三」非官方存檔。
+</p>
+<p align="center">
+此 Repo 為熱心網友建立並維護，非官方，旨在為兩岸三地的聽眾朋友提供便捷的收聽方式。
 </p>
 
 <p align="center">
-<img src="https://cdn.jsdelivr.net/gh/coxmos/cdn@master/ear/avatar.png" alt="avatar" style="zoom:80%;" />
+<img src="https://cdn.jsdelivr.net/gh/coxmos/cdn@master/music543/avatar.png" alt="avatar" style="zoom:80%;" />
 </p>
 
 
 
 
 ### 通知
-<a href="https://open.spotify.com/show/3Y3bCgls9iO454FVI83nRn" target="_blank"><img alt="spotify" src="https://cdn.jsdelivr.net/gh/coxmos/lend-me-your-ear@master/static/spotify-podcast-badge-wht-grn-660x160.svg" style="zoom:30%"></a>
+<a href="https://open.spotify.com/show/3ZsHxqotBOPdLlfOiRW9xv" target="_blank"><img alt="Spotify" src="https://cdn.jsdelivr.net/gh/coxmos/cdn@master/podcast/spotify-podcast-badge.svg" style="zoom:30%"></a>
 
 
 
 
-本项目在 Spotify 正式上线啦 🎉  
+本專案在 Spotify 正式上線啦 🎉  
 
-Spotify 用户请直接搜索「耳朵借我」，即可收听节目～  
-
-<img src="https://cdn.jsdelivr.net/gh/coxmos/lend-me-your-ear@master/static/spotify.png" alt="avatar" style="zoom:60%;" />
+Spotify 使用者請直接搜尋「<a href="https://open.spotify.com/show/3ZsHxqotBOPdLlfOiRW9xv" target="_blank">音樂五四三</a>」，即可收聽節目～  
 
 
 
-## 特点
+## 特點
 
-1. **使用方便**：只需一个 RSS 订阅链接，耳朵就能借给马世芳。 XD
-2. **期数齐全**：手动整理检查归档，从 2017/08/14 开播至今，不错过任何一期。
-3. **独立搭建**：自建音频 hosting，可用任意支持 RSS 功能的 Podcast App 进行订阅收听。
-4. **无审查**：不依赖任何 Podcast 平台（希望我们能在自由的地方相见。
-5. **免翻墙**：音频和图片通过 CDN 加速，同时镜像了 Medium 和马芳老师的 WordPress，大陆地区体验良好。
-6. **稳定安全**：文件存储在 Google Drive 中，同时备份在 OneDrive，iCloud 以及本地。不用担心失效等问题。
-
-
+1. **使用方便**：只需一個 RSS 訂閱連結，就能做一個認真的樂迷。 XD
+2. **獨立搭建**：自建音訊 hosting，可用任意支援 RSS 功能的 Podcast App 進行訂閱收聽。
+3. **無審查**：不依賴任何 Podcast 平臺（希望我們能在自由的地方相見。
+4. **免翻牆**：音訊和圖片透過 CDN 加速，同時映象了 Medium 和馬芳老師的 WordPress，大陸地區體驗良好。
+5. **穩定安全**：檔案儲存在 Google Drive 中，同時備份在 OneDrive，iCloud 以及本地。不用擔心失效等問題。
 
 
 
 
 
 ## 使用方法
-复制以下 RSS 链接，用支持 RSS 功能的播客 App 进行订阅收听。
+複製以下 RSS 連結，用支援 RSS 功能的播客 App 進行訂閱收聽。
 
 ```plain
-https://ear.xiaoyuu.ga/rss.xml
+https://music543.xiaoyuu.ga/rss.xml
 ```
 
 
 
-**以 iOS 苹果自家的 Podcast App 为例**
+**以 iOS 蘋果自家的 Podcast App 為例**
 
-<img src="https://cdn.jsdelivr.net/gh/coxmos/lend-me-your-ear@master/static/apple_podcast.png" style="zoom:40%;" />
+<img src="https://cdn.jsdelivr.net/gh/coxmos/cdn@master/podcast/apple-podcast.png" style="zoom:40%;" />
 
-**使用步骤如下**
+**使用步驟如下**
 
 
 
-![](https://cdn.jsdelivr.net/gh/coxmos/lend-me-your-ear@master/static/step.jpeg)
+![](https://cdn.jsdelivr.net/gh/coxmos/cdn@master/podcast/apple-podcast-step.jpeg)
 
 
 
 **Enjoy ！**
 
-<img src="https://cdn.jsdelivr.net/gh/coxmos/lend-me-your-ear@master/static/preview.png" style="zoom:50%;" />
 
-##  App 推荐
+##  App 推薦
 
 ### iOS & Android
 
@@ -78,7 +76,7 @@ https://ear.xiaoyuu.ga/rss.xml
 
 ### iOS only
 
-1. [Apple Podcasts](https://apps.apple.com/cn/app/id525463029)
+1. [Apple Podcasts](https://apps.apple.com/us/app/id525463029)
 2. [Overcast](https://overcast.fm)
 3. [Castro](https://castro.fm)
 
@@ -89,53 +87,46 @@ https://ear.xiaoyuu.ga/rss.xml
 
 
 
-**不限于以上 App，可以使用自己喜欢的软件，只要支持 RSS 订阅功能即可。**
+**不限於以上 App，可以使用自己喜歡的軟體，只要支援 RSS 訂閱功能即可。**
 
 
 
-## 节目列表
+## 節目列表
 
-- 2020 持续更新中...
-
-- 2019（共 105 期全）
-
-- 2018（共 105 期全）
-
-- 2017（共 40 期全）
+//TODO
 
 
 
-## 计划 Todo
+## 計劃 Todo
 
-1. 坚持更新 XD
-
-
-
-## 相关链接
-
-1. 马芳老师 Blog（现）：[Medium](https://medium.com/@mafang) ,  [镜像站](https://medium.xiaoyuu.ga/@mafang)
-2. 马芳老师 Blog（旧）：[WordPress](https://honeypie.wordpress.com) , [镜像站](https://honeypie.xiaoyuu.ga)
-3. 原始音频文件下载：[链接](https://one.xiaoyuu.ga/ear) ，**仅限个人使用，严禁用于商业用途。** 
+1. 堅持更新 XD
 
 
 
-## 感谢
+## 相關連結
 
-1. [马芳老师](https://www.facebook.com/shihfang.ma)
-
-2. [耳朵借給馬世芳－電台靴腿小組](https://www.facebook.com/groups/258827734532615) 
-
-   > 本项目原始音频存档来自于该小组，感谢听友们的辛苦录制与无私分享。
-
-3. [湾湾独立音乐速报](https://weibo.com/rebelfreak) 
-
-   > 一位大陆优秀的音乐博主，「和你一样热爱台湾音乐！」。本人最初是通过该博主的分享，才有幸了解到「耳朵借我」这一节目，此项目灵感也是来源于此。
-
-4. 互联网 :)
+1. 馬芳老師 Blog（現）：[Medium](https://medium.com/@mafang) ,  [映象站](https://medium.xiaoyuu.ga/@mafang)
+2. 馬芳老師 Blog（舊）：[WordPress](https://honeypie.wordpress.com) , [映象站](https://honeypie.xiaoyuu.ga)
+3. 原始音訊檔案下載：[連結](https://one.xiaoyuu.ga/music543) ，**僅限個人使用，嚴禁用於商業用途。** 
 
 
 
-## 联系
+## 感謝
 
-如有问题或者建议，请直接在下方留言，或发邮件至 [ear@xiaoyuu.ga](mailto:ear@xiaoyuu.ga)  .
+1. [馬芳老師](https://www.facebook.com/shihfang.ma)
 
+2. [耳朵借給馬世芳－電臺靴腿小組](https://www.facebook.com/groups/258827734532615) 
+
+   > 本專案原始音訊存檔來自於該小組，感謝聽友們的辛苦錄製與無私分享。
+
+3. [灣灣獨立音樂速報](https://weibo.com/rebelfreak) 
+
+   > 一位大陸優秀的音樂博主，「和你一樣熱愛臺灣音樂！」。此專案靈感來源於此。
+
+4. 網路 :)
+
+
+
+## 聯絡
+
+如有問題或者建議，請發郵件至 [music543@xiaoyuu.ga](mailto:music543@xiaoyuu.ga)  .
