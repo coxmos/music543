@@ -6,7 +6,7 @@
 title: 音樂五四三
 subtitle: '做一個認真的樂迷'
 description: '馬世芳老師電台節目「音樂五四三」，非官方存檔。'
-keywords: 音樂五四三 馬世芳 Podcast
+keywords: 音樂五四三 馬世芳 音樂
 author: 音樂五四三
 language: zh-TW
 timezone: Asia/Shanghai
@@ -112,7 +112,7 @@ podcast:
   type: rss2
   path: rss.xml
   title: "音樂五四三"
-  description: "<p>做一個認真的樂迷，電台節目「音樂五四三」非官方存檔Bootleg。不定時更新，歡迎關注👏🏻</p><p>另外也有「<a href='ear.xiaoyuu.ga'>耳朵借我</a> 」存檔,歡迎收聽。</p><p>主頁：<a href='music543.xiaoyuu.ga'>music543.xiaoyuu.ga</a></p><p>如有問題或建議，請发邮件至 <a href='music543@xiaoyuu.ga'>music543@xiaoyuu.ga</a>.</p>"
+  description: "<p>做一個認真的樂迷，電台節目「音樂五四三」非官方Bootleg。不定時更新，歡迎關注👏🏻</p><p>另外也有「<a href='ear.xiaoyuu.ga'>耳朵借我</a> 」存檔,歡迎收聽。</p><p>主頁：<a href='music543.xiaoyuu.ga'>music543.xiaoyuu.ga</a></p><p>如有問題或建議，請发邮件至 <a href='music543@xiaoyuu.ga'>music543@xiaoyuu.ga</a>.</p>"
   avatar: "https://cdn.jsdelivr.net/gh/coxmos/cdn@master/music543/avatar.png"
   language: "zh"
   category: "Music"
