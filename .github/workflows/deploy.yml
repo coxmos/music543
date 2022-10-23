@@ -21,7 +21,7 @@ jobs:
       # 設定 node.js 環境
       uses: actions/setup-node@v1
       with:
-        node-version: '12.x'
+        node-version: '16.x'
 
     - name: Cache node modules
       # 設定包快取目錄，避免每次下載
